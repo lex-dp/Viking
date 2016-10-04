@@ -145,16 +145,16 @@ body {
   .words {
     color: #6A6A6A; }
 
-#tabbedPanel {
+#tabbedPanel, #tabbedPanelCallery, #prices {
   padding: 0; }
-  #tabbedPanel ul {
+  #tabbedPanel ul, #tabbedPanelCallery ul, #prices ul {
     max-width: 1100px;
     margin: 0 auto;
     background-color: #FFFFFF; }
-    #tabbedPanel ul img {
+    #tabbedPanel ul img, #tabbedPanelCallery ul img, #prices ul img {
       width: 250px;
       height: 200px; }
-  #tabbedPanel ul p {
+  #tabbedPanel ul p, #tabbedPanelCallery ul p, #prices ul p {
     text-align: center; }
 
 .ui-tabs .ui-tabs-nav li.ui-tabs-active {
@@ -247,6 +247,32 @@ body {
   padding-left: 7px;
   color: #00BBCC; }
 
+/*Start of fotorama slider settings*/
+#tabbedPanelCallery, #prices {
+  margin-top: 30px; }
+  #tabbedPanelCallery .details-wrapper, #prices .details-wrapper {
+    padding: 20px 0; }
+
+/*End of fotorama slider settings*/
+/*Start of prices table*/
+#prices table {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  border: #e2e2e2 1px solid;
+  text-align: center; }
+  #prices table tr:nth-child(odd) {
+    background-color: #fff; }
+  #prices table tr:hover {
+    color: red;
+    cursor: pointer; }
+  #prices table td:first-child {
+    text-align: left; }
+  #prices table td {
+    border: #e2e2e2 1px solid;
+    padding: 12px 0px 12px 8px; }
+
+/*End of prices table*/
 /*Start of Media queries*/
 @media screen and (max-width: 1300px) {
   .details-wrapper {
@@ -272,7 +298,7 @@ body {
     .details p {
       font-size: 14px; } }
 @media screen and (max-width: 1100px) {
-  #tabbedPanel ul {
+  #tabbedPanel ul, #tabbedPanelCallery ul, #prices ul {
     max-width: 920px;
     margin: 0 auto; }
 
@@ -280,15 +306,18 @@ body {
     margin: 1px 1.2em 0 0; } }
 @media screen and (max-width: 970px) {
   .details-wrapper {
-    max-width: 630px; } }
+    max-width: 630px; }
+
+  #prices .details-wrapper {
+    max-width: 100%; } }
 @media screen and (max-width: 925px) {
   .header-slider img {
     height: 550px; }
 
-  #tabbedPanel ul {
+  #tabbedPanel ul, #tabbedPanelCallery ul, #prices ul {
     max-width: 770px;
     margin: 0 auto; }
-  #tabbedPanel li img {
+  #tabbedPanel li img, #tabbedPanelCallery li img, #prices li img {
     width: 200px;
     height: 150px; }
 
@@ -311,11 +340,14 @@ body {
         width: 174px; }
     .tags-wrapper .tags .links:nth-child(even) {
       border: 1px dashed white; } }
+@media screen and (max-width: 770px) {
+  #prices .details-wrapper {
+    font-size: 14px; } }
 @media screen and (max-width: 760px) {
-  #tabbedPanel ul {
+  #tabbedPanel ul, #tabbedPanelCallery ul, #prices ul {
     max-width: 670px;
     margin: 0 auto; }
-  #tabbedPanel li img {
+  #tabbedPanel li img, #tabbedPanelCallery li img, #prices li img {
     width: 170px;
     height: 130px; }
 
@@ -354,12 +386,12 @@ body {
   .ui-tabs .ui-tabs-nav li {
     margin: 0px; }
 
-  #tabbedPanel ul {
+  #tabbedPanel ul, #tabbedPanelCallery ul, #prices ul {
     max-width: 430px; }
-    #tabbedPanel ul li img {
+    #tabbedPanel ul li img, #tabbedPanelCallery ul li img, #prices ul li img {
       width: 100px;
       height: 100px; }
-    #tabbedPanel ul p {
+    #tabbedPanel ul p, #tabbedPanelCallery ul p, #prices ul p {
       font-size: 10px; }
 
   #gym, #sauna, #hostel {
@@ -382,7 +414,13 @@ body {
     .details h3 {
       font-size: 13px; }
     .details p {
-      font-size: 12px; } }
+      font-size: 12px; }
+
+  #prices .details-wrapper {
+    font-size: 12px; } }
+@media screen and (max-width: 540px) {
+  #prices .details-wrapper {
+    font-size: 10px; } }
 @media screen and (max-width: 520px) {
   .details-wrapper {
     max-width: 240px; }
@@ -396,25 +434,25 @@ body {
   .header-slider img {
     height: 250px; }
 
-  #tabbedPanel ul {
+  #tabbedPanel ul, #tabbedPanelCallery ul, #prices ul {
     max-width: 365px;
     margin: 0 auto; }
-    #tabbedPanel ul li img {
+    #tabbedPanel ul li img, #tabbedPanelCallery ul li img, #prices ul li img {
       width: 75px;
       height: 60px; }
-    #tabbedPanel ul p {
+    #tabbedPanel ul p, #tabbedPanelCallery ul p, #prices ul p {
       font-size: 8px; }
 
   #gym, #sauna, #hostel {
     margin-top: 8px; } }
 @media screen and (max-width: 360px) {
-  #tabbedPanel ul {
+  #tabbedPanel ul, #tabbedPanelCallery ul, #prices ul {
     max-width: 275px;
     margin: 0 auto; }
-    #tabbedPanel ul li img {
+    #tabbedPanel ul li img, #tabbedPanelCallery ul li img, #prices ul li img {
       width: 50px;
       height: 40px; }
-    #tabbedPanel ul p {
+    #tabbedPanel ul p, #tabbedPanelCallery ul p, #prices ul p {
       font-size: 5px; }
 
   #gym, #sauna, #hostel {

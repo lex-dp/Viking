@@ -224,7 +224,7 @@ body {
 }
 
 
-#tabbedPanel {
+#tabbedPanel , #tabbedPanelCallery, #prices {
 	
 	padding: 0;
 	ul {
@@ -373,6 +373,47 @@ body {
 
 
 
+/*Start of fotorama slider settings*/
+	#tabbedPanelCallery , #prices {
+		margin-top: 30px;
+		
+		.details-wrapper {
+			padding: 20px 0;
+		}
+	}
+	
+/*End of fotorama slider settings*/
+
+
+/*Start of prices table*/
+	#prices table {
+		width: 100%;
+		border-collapse: collapse;
+		border-spacing: 0;
+		border: #e2e2e2 1px solid;
+		text-align: center;
+		
+		
+		tr:nth-child(odd) {
+			background-color: #fff;
+		}
+		
+		tr:hover {
+			color: red;
+			cursor: pointer;
+		}
+		
+		td:first-child {
+			text-align: left;
+		}
+		
+		td {
+			border: #e2e2e2 1px solid;
+			padding: 12px 0px 12px 8px;
+		}
+	}
+/*End of prices table*/
+
 
 /*Start of Media queries*/
 
@@ -410,7 +451,7 @@ body {
 }
 
 @media screen and (max-width: 1100px) {	
-	#tabbedPanel { 
+	#tabbedPanel , #tabbedPanelCallery , #prices { 
 		ul {
 			@include maxWidth(920px);
 		}
@@ -424,6 +465,10 @@ body {
 	.details-wrapper {
 		max-width: 630px;
 	}
+	
+	#prices .details-wrapper{
+		max-width: 100%;
+	}
 }
 
 @media screen and (max-width: 925px) {	
@@ -431,7 +476,7 @@ body {
 		height: 550px;
 	}
 	
-	#tabbedPanel {
+	#tabbedPanel, #tabbedPanelCallery, #prices {
 		ul {
 			@include maxWidth(770px);
 		}
@@ -473,8 +518,13 @@ body {
 	}
 }
 
+@media screen and (max-width: 770px) {
+	#prices .details-wrapper{
+		font-size: 14px;
+	}	
+}
 @media screen and (max-width: 760px) {
-	#tabbedPanel {
+	#tabbedPanel, #tabbedPanelCallery, #prices {
 		ul {
 			@include maxWidth(670px);
 		}
@@ -541,7 +591,7 @@ body {
 			margin: 0px;
 		}
 	
-	#tabbedPanel {
+	#tabbedPanel, #tabbedPanelCallery, #prices {
 		ul {
 			
 			max-width: 430px;
@@ -594,8 +644,17 @@ body {
 		}
 	}
 
+	#prices .details-wrapper{
+		font-size: 12px;
+	}	
+	
 }
 
+@media screen and (max-width: 540px) {
+	#prices .details-wrapper{
+		font-size: 10px;
+	}	
+}	
 @media screen and (max-width: 520px) { 
 	.details-wrapper {
 		max-width: 240px;
@@ -619,7 +678,7 @@ body {
 		height: 250px;
 	}
 	
-	#tabbedPanel {
+	#tabbedPanel, #tabbedPanelCallery, #prices {
 		ul {
 			@include maxWidth(365px);
 			
@@ -640,7 +699,7 @@ body {
 }
 
 @media screen and (max-width: 360px) {
-	#tabbedPanel {
+	#tabbedPanel, #tabbedPanelCallery, #prices {
 		ul {
 			@include maxWidth(275px);
 			
