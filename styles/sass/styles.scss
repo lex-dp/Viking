@@ -546,7 +546,7 @@ body {
 	}
 }
 
-@media screen and (max-width: 1100px) {	
+@media screen and (max-width: 1110px) {	
 	#tabbedPanel , #tabbedPanelCallery , #prices { 
 		ul {
 			@include maxWidth(920px);
@@ -567,7 +567,7 @@ body {
 	}
 }
 
-@media screen and (max-width: 925px) {	
+@media screen and (max-width: 935px) {	
 	.header-slider img {
 		height: 550px;
 	}
@@ -614,12 +614,12 @@ body {
 	}
 }
 
+
 @media screen and (max-width: 770px) {
 	#prices .details-wrapper{
 		font-size: 14px;
-	}	
-}
-@media screen and (max-width: 760px) {
+	}
+	
 	#tabbedPanel, #tabbedPanelCallery, #prices {
 		ul {
 			@include maxWidth(670px);
@@ -769,7 +769,7 @@ body {
 	}	
 }	
 
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 440px) {
 	.header-slider img {
 		height: 250px;
 	}
@@ -794,7 +794,7 @@ body {
 	}
 }
 
-@media screen and (max-width: 365px) {
+@media screen and (max-width: 375px) {
 	#tabbedPanel, #tabbedPanelCallery, #prices {
 		ul {
 			@include maxWidth(275px);
