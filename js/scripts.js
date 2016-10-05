@@ -15,19 +15,17 @@ $(document).ready(function() {
 	var hash = location.hash; 
     if (hash) { 
 		$('#tabbedPanelCallery').tabs("load", hash);
-		
 	} 
 	
-
 	
-
+	
+	
 	
 
 	$( window ).resize(function() {
 		var $width = $(window).width();
 		console.log($width);
 	});
-	
-	
+
 });  
 

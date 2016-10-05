@@ -140,10 +140,11 @@ body {
   max-width: 700px;
   margin: 0 auto;
   margin: 25px auto; }
-  .words span {
-    color: red; }
   .words {
     color: #6A6A6A; }
+
+.red {
+  color: red; }
 
 #tabbedPanel, #tabbedPanelCallery, #prices {
   padding: 0; }
@@ -204,6 +205,16 @@ body {
     height: 200px;
     border-radius: 20px; }
 
+/*Start of Contact page*/
+.contact .info {
+  margin: 20px 0; }
+.contact p {
+  margin: 20px 0; }
+
+@media screen and (max-width: 1200px) {
+  .contact .details-wrapper {
+    max-width: 1200px; } }
+/*End of Contact page*/
 .tags-wrapper {
   padding: 15px 10px;
   background-color: #4F4F4F;
@@ -273,6 +284,167 @@ body {
     padding: 12px 0px 12px 8px; }
 
 /*End of prices table*/
+/*Start of edit fotorama slider for images in tabs*/
+@media screen and (max-width: 1300px) {
+  .fotorama__wrap .fotorama__pointer {
+    width: 1100px !important;
+    height: 733px !important; }
+
+  .fotorama .fotorama__stage__shaft {
+    width: 1100px !important; }
+
+  .fotorama__wrap--css3 .fotorama__html, .fotorama__wrap--css3 .fotorama__stage .fotorama__img {
+    width: 1100px !important;
+    height: 733px !important;
+    left: 0.25px !important; }
+
+  .fotorama--fullscreen .fotorama__wrap .fotorama__pointer {
+    width: 100% !important;
+    height: 850px !important; }
+
+  .fotorama--fullscreen .fotorama__stage__shaft {
+    width: 100% !important; }
+
+  .fotorama--fullscreen .fotorama__wrap--css3 .fotorama__html, .fotorama--fullscreen .fotorama__wrap--css3 .fotorama__stage .fotorama__img {
+    width: 100% !important;
+    height: 800px !important; }
+
+  .fotorama--fullscreen .fotorama__arr--prev, .fotorama--fullscreen .fotorama__arr--next {
+    top: 50% !important; } }
+@media screen and (max-width: 1200px) {
+  .fotorama__wrap .fotorama__pointer {
+    width: 920px !important;
+    height: 620px !important; }
+
+  .fotorama .fotorama__stage__shaft {
+    width: 930px !important; }
+
+  .fotorama__wrap--css3 .fotorama__html, .fotorama__wrap--css3 .fotorama__stage .fotorama__img {
+    width: 930px !important;
+    height: 620px !important;
+    left: 0px !important; }
+
+  .fotorama--fullscreen .fotorama__wrap .fotorama__pointer {
+    width: 100% !important;
+    height: 850px !important; }
+
+  .fotorama--fullscreen .fotorama__stage__shaft {
+    width: 100% !important; }
+
+  .fotorama--fullscreen .fotorama__wrap--css3 .fotorama__html, .fotorama--fullscreen .fotorama__wrap--css3 .fotorama__stage .fotorama__img {
+    width: 100% !important;
+    height: 700px !important; }
+
+  .fotorama--fullscreen .fotorama__arr--prev, .fotorama--fullscreen .fotorama__arr--next {
+    top: 50% !important; } }
+@media only screen and (min-width: 1100px) and (max-width: 1200px) {
+  #tabbedPanelCallery .details-wrapper {
+    max-width: 930px; } }
+@media screen and (max-width: 970px) {
+  .fotorama__wrap .fotorama__pointer {
+    width: 630px !important;
+    height: 420px !important; }
+
+  .fotorama .fotorama__stage__shaft {
+    width: 630px !important; }
+
+  .fotorama__wrap--css3 .fotorama__html, .fotorama__wrap--css3 .fotorama__stage .fotorama__img {
+    width: 630px !important;
+    height: 420px !important;
+    left: 0px !important; }
+
+  .fotorama--fullscreen .fotorama__wrap .fotorama__pointer {
+    width: 100% !important;
+    height: 820px !important; }
+
+  .fotorama--fullscreen .fotorama__stage__shaft {
+    width: 100% !important; }
+
+  .fotorama--fullscreen .fotorama__wrap--css3 .fotorama__html, .fotorama--fullscreen .fotorama__wrap--css3 .fotorama__stage .fotorama__img {
+    width: 100% !important;
+    height: 600px !important; }
+
+  .fotorama--fullscreen .fotorama__arr--prev, .fotorama--fullscreen .fotorama__arr--next {
+    top: 55% !important; } }
+@media screen and (max-width: 670px) {
+  .fotorama__wrap .fotorama__pointer {
+    width: 583px !important;
+    height: 364px !important; }
+
+  .fotorama .fotorama__stage__shaft {
+    width: 583px !important; }
+
+  .fotorama__wrap--css3 .fotorama__html, .fotorama__wrap--css3 .fotorama__stage .fotorama__img {
+    width: 583px !important;
+    height: 364px !important;
+    left: 0px !important; }
+
+  .fotorama--fullscreen .fotorama__wrap .fotorama__pointer {
+    width: 100% !important;
+    height: 800px !important; }
+
+  .fotorama--fullscreen .fotorama__stage__shaft {
+    width: 100% !important; }
+
+  .fotorama--fullscreen .fotorama__wrap--css3 .fotorama__html, .fotorama--fullscreen .fotorama__wrap--css3 .fotorama__stage .fotorama__img {
+    width: 100% !important;
+    height: 500px !important; }
+
+  .fotorama--fullscreen .fotorama__arr--prev, .fotorama--fullscreen .fotorama__arr--next {
+    top: 60% !important; } }
+@media screen and (max-width: 620px) {
+  .fotorama__wrap .fotorama__pointer {
+    width: 482px !important;
+    height: 321px !important; }
+
+  .fotorama .fotorama__stage__shaft {
+    width: 482px !important; }
+
+  .fotorama__wrap--css3 .fotorama__html, .fotorama__wrap--css3 .fotorama__stage .fotorama__img {
+    width: 482px !important;
+    height: 321px !important;
+    left: 0px !important; }
+
+  .fotorama--fullscreen .fotorama__wrap .fotorama__pointer {
+    width: 100% !important;
+    height: 780px !important; }
+
+  .fotorama--fullscreen .fotorama__stage__shaft {
+    width: 100% !important; }
+
+  .fotorama--fullscreen .fotorama__wrap--css3 .fotorama__html, .fotorama--fullscreen .fotorama__wrap--css3 .fotorama__stage .fotorama__img {
+    width: 100% !important;
+    height: 500px !important; }
+
+  .fotorama--fullscreen .fotorama__arr--prev, .fotorama--fullscreen .fotorama__arr--next {
+    top: 60% !important; } }
+@media screen and (max-width: 520px) {
+  .fotorama__wrap .fotorama__pointer {
+    width: 240px !important;
+    height: 150px !important; }
+
+  .fotorama .fotorama__stage__shaft {
+    width: 240px !important; }
+
+  .fotorama__wrap--css3 .fotorama__html, .fotorama__wrap--css3 .fotorama__stage .fotorama__img {
+    width: 240px !important;
+    height: 150px !important;
+    left: 0px !important; }
+
+  .fotorama--fullscreen .fotorama__wrap .fotorama__pointer {
+    width: 100% !important;
+    height: 600px !important; }
+
+  .fotorama--fullscreen .fotorama__stage__shaft {
+    width: 100% !important; }
+
+  .fotorama--fullscreen .fotorama__wrap--css3 .fotorama__html, .fotorama--fullscreen .fotorama__wrap--css3 .fotorama__stage .fotorama__img {
+    width: 100% !important;
+    height: 300px !important; }
+
+  .fotorama--fullscreen .fotorama__arr--prev, .fotorama--fullscreen .fotorama__arr--next {
+    top: 75% !important; } }
+/*End of edit fotorama slider for images in tabs*/
 /*Start of Media queries*/
 @media screen and (max-width: 1300px) {
   .details-wrapper {
@@ -445,7 +617,7 @@ body {
 
   #gym, #sauna, #hostel {
     margin-top: 8px; } }
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 365px) {
   #tabbedPanel ul, #tabbedPanelCallery ul, #prices ul {
     max-width: 275px;
     margin: 0 auto; }
