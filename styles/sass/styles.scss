@@ -620,6 +620,10 @@ body {
 @media screen and (max-width: 1130px) {	
 	.details-wrapper {
 		max-width: 930px;
+		
+		ol, ul {
+			padding-left: 75px;
+		}
 	}
 	
 	.details {
@@ -641,7 +645,7 @@ body {
 	}
 }
 
-@media screen and (max-width: 1110px) {	
+@media screen and (max-width: 1120px) {	
 	#tabbedPanel , #tabbedPanelCallery , #prices , #rules { 
 		ul {
 			@include maxWidth(920px);

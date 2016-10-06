@@ -505,6 +505,8 @@ body {
 @media screen and (max-width: 1130px) {
   .details-wrapper {
     max-width: 930px; }
+    .details-wrapper ol, .details-wrapper ul {
+      padding-left: 75px; }
 
   .details {
     margin: 15px 20px;
@@ -516,7 +518,7 @@ body {
       font-size: 15px; }
     .details p {
       font-size: 14px; } }
-@media screen and (max-width: 1110px) {
+@media screen and (max-width: 1120px) {
   #tabbedPanel ul, #tabbedPanelCallery ul, #prices ul, #rules ul {
     max-width: 920px;
     margin: 0 auto; }
