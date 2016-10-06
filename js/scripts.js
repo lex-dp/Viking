@@ -7,7 +7,7 @@ $(document).ready(function() {
 		event: "mouseover"
 	});
 	
-	$("#tabbedPanelCallery , #prices").tabs({
+	$("#tabbedPanelCallery , #prices , #rules").tabs({
 		beforeActivate : function(evt) {
 			location.hash=$(evt.currentTarget).attr('href');
 		}
@@ -17,14 +17,13 @@ $(document).ready(function() {
 		$('#tabbedPanelCallery').tabs("load", hash);
 	} 
 	
-	
-	
-	
-	
-
-	$( window ).resize(function() {
-		var $width = $(window).width();
-		console.log($width);
+	$("#rules #accordion").accordion({
+    heightStyle: "content",active: false,
+    activate: function( event, ui ) {
+        if(!$.isEmptyObject(ui.newHeader.offset())) {
+            $('html:not(:animated), body:not(:animated)').animate({ scrollTop: ui.newHeader.offset().top }, 'slow');
+        }
+    }
 	});
 
 });  

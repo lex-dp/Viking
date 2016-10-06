@@ -224,7 +224,7 @@ body {
 	color: red;
 }
 
-#tabbedPanel , #tabbedPanelCallery, #prices {
+#tabbedPanel , #tabbedPanelCallery, #prices , #rules {
 	
 	padding: 0;
 	ul {
@@ -332,6 +332,101 @@ body {
 }
 /*End of Contact page*/
 
+/*Start of Company page*/
+	.company {
+		.info {
+			margin: 20px 0;
+		}
+		
+		h3 {
+			text-align: center;
+		}
+		
+		p {
+			margin: 20px 0;
+		}
+		
+		.img-right {
+			float:right;
+			margin: 5px 0 5px 15px;
+		}
+		
+		.img-left {
+			float:left;
+			margin: 5px 15px 5px 0px;
+		}
+		
+		img {
+			width:380px;
+			height: 250px;
+		}
+	}
+	
+@media screen and (max-width: 1200px) {
+	.company  {
+		.details-wrapper {
+			max-width: 1200px;
+		}
+	}
+}
+
+@media screen and (max-width: 420px) {
+	.company  {
+		img {
+			width: 285px;
+			height: 170px;
+		}
+	}
+}
+/*End of Company page*/
+
+/*Start of rules page*/
+	#rules {
+		
+		.details-wrapper {
+			h3 {
+				text-align:center;
+				color: red;
+			}
+			
+			h4 {
+				text-align: center;
+			}
+			p {
+				margin: 15px 0;
+			}
+			
+			ul {
+				background-color: #EEEEEE;
+			}
+			
+			li {
+				padding: 5px 0;
+			}
+		}	
+		
+		.ui-accordion-content {
+			background-color: #EEEEEE;
+		}
+		
+	}
+	
+@media only screen and (min-width:100px) and (max-width: 1200px) {
+	#rules  {
+		.details-wrapper {
+			max-width: 100%;
+		}
+	}
+}
+
+@media screen and (max-width: 700px) {
+	.ui-accordion .ui-accordion-content {
+		padding: 2px;
+	}
+	
+}
+/*End of rules page*/
+
 
 
 .tags-wrapper {
@@ -396,7 +491,7 @@ body {
 
 
 /*Start of fotorama slider settings*/
-	#tabbedPanelCallery , #prices {
+	#tabbedPanelCallery , #prices , #rules {
 		margin-top: 30px;
 		
 		.details-wrapper {
@@ -547,7 +642,7 @@ body {
 }
 
 @media screen and (max-width: 1110px) {	
-	#tabbedPanel , #tabbedPanelCallery , #prices { 
+	#tabbedPanel , #tabbedPanelCallery , #prices , #rules { 
 		ul {
 			@include maxWidth(920px);
 		}
@@ -572,7 +667,7 @@ body {
 		height: 550px;
 	}
 	
-	#tabbedPanel, #tabbedPanelCallery, #prices {
+	#tabbedPanel, #tabbedPanelCallery, #prices , #rules {
 		ul {
 			@include maxWidth(770px);
 		}
@@ -620,7 +715,7 @@ body {
 		font-size: 14px;
 	}
 	
-	#tabbedPanel, #tabbedPanelCallery, #prices {
+	#tabbedPanel, #tabbedPanelCallery, #prices , #rules {
 		ul {
 			@include maxWidth(670px);
 		}
@@ -647,7 +742,7 @@ body {
 	}
 }
 
-@media screen and (max-width: 670px) {			
+@media screen and (max-width: 750px) {	
 	.header {
 		text-align: center;
 		padding: 20px 0;
@@ -679,6 +774,9 @@ body {
 			}
 		}
 	}
+}		
+@media screen and (max-width: 670px) {			
+	
 	
 	.ui-tabs .ui-tabs-nav li.ui-tabs-active {
 			margin-top: 0px;
@@ -687,7 +785,7 @@ body {
 			margin: 0px;
 		}
 	
-	#tabbedPanel, #tabbedPanelCallery, #prices {
+	#tabbedPanel, #tabbedPanelCallery, #prices  , #rules{
 		ul {
 			
 			max-width: 430px;
@@ -774,7 +872,7 @@ body {
 		height: 250px;
 	}
 	
-	#tabbedPanel, #tabbedPanelCallery, #prices {
+	#tabbedPanel, #tabbedPanelCallery, #prices , #rules {
 		ul {
 			@include maxWidth(365px);
 			
@@ -795,7 +893,7 @@ body {
 }
 
 @media screen and (max-width: 375px) {
-	#tabbedPanel, #tabbedPanelCallery, #prices {
+	#tabbedPanel, #tabbedPanelCallery, #prices , #rules {
 		ul {
 			@include maxWidth(275px);
 			
