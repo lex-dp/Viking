@@ -71,9 +71,16 @@ body {
     .header .nav a:hover {
       text-shadow: 0px 0px 1px white; }
 
-.header-slider img {
-  width: 100%;
-  height: 700px; }
+.slider-wrapper {
+  background: #242223;
+  padding: 0 0 30px 0; }
+
+.header-slider {
+  max-width: 1200px;
+  margin: 0 auto; }
+  .header-slider img {
+    width: 100%;
+    height: 700px; }
 
 /*Start of Settings for arrows in slick slider*/
 .slick-next {
@@ -186,10 +193,12 @@ body {
 
 .details {
   width: 300px;
-  float: left;
-  margin: 15px 50px; }
+  display: inline-block;
+  vertical-align: top;
+  margin: 15px 40px; }
   .details h3 {
-    font-size: 17px; }
+    font-size: 17px;
+    text-align: center; }
   .details p {
     font-size: 16px;
     font-style: italic;
@@ -509,7 +518,7 @@ body {
       padding-left: 75px; }
 
   .details {
-    margin: 15px 20px;
+    margin: 15px;
     width: 270px; }
     .details img {
       width: 270px;
@@ -577,9 +586,6 @@ body {
 
   .ui-tabs .ui-tabs-nav li {
     margin: 1px 0.5em 0 0; } }
-@media screen and (max-width: 700px) {
-  .header-slider img {
-    height: 470px; } }
 @media screen and (max-width: 750px) {
   .header {
     text-align: center;
@@ -600,6 +606,9 @@ body {
           background-color: black; }
       .header .nav a {
         display: block; } }
+@media screen and (max-width: 700px) {
+  .header-slider img {
+    height: 470px; } }
 @media screen and (max-width: 670px) {
   .ui-tabs .ui-tabs-nav li.ui-tabs-active {
     margin-top: 0px; }
@@ -622,7 +631,7 @@ body {
     max-width: 583px; }
 
   .details {
-    margin: 15px 10px; } }
+    margin: 15px 5px; } }
 @media screen and (max-width: 620px) {
   .details-wrapper {
     max-width: 482px; }
