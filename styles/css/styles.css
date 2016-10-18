@@ -153,6 +153,13 @@ body {
 .red {
   color: red; }
 
+.blue {
+  color: blue; }
+
+#accordion li:hover, #accordion p:hover {
+  /* color: #ff6600; */
+  cursor: pointer; }
+
 #tabbedPanel, #tabbedPanelCallery, #prices, #rules {
   padding: 0; }
   #tabbedPanel ul, #tabbedPanelCallery ul, #prices ul, #rules ul {

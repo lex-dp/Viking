@@ -231,6 +231,15 @@ body {
 	color: red;
 }
 
+.blue {
+	color: blue;
+}
+
+#accordion li:hover, #accordion p:hover {
+	/* color: #ff6600; */
+	cursor: pointer;
+}
+
 #tabbedPanel , #tabbedPanelCallery, #prices , #rules {
 	
 	padding: 0;
