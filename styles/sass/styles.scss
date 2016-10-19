@@ -75,6 +75,8 @@ border-spacing: 0;
  
  /*End of Variables*/
  
+ 
+ 
 * {
 	box-sizing: border-box;
 	
@@ -84,6 +86,18 @@ body {
 	padding:0;
 	margin:0;
 	font-family: Arial ;
+}
+
+.red {
+	color: red;
+}
+
+.blue {
+	color: blue;
+}
+
+h4 {
+	margin-bottom: 20px;
 }
 
 
@@ -227,13 +241,6 @@ body {
 	}	
 }
 
-.red {
-	color: red;
-}
-
-.blue {
-	color: blue;
-}
 
 #accordion li:hover, #accordion p:hover {
 	/* color: #ff6600; */
