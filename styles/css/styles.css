@@ -295,8 +295,8 @@ h4 {
       color: #00BBCC; }
     .tags-wrapper .tags .links {
       float: left;
-      width: 180px;
-      margin-right: 50px; }
+      width: 200px;
+      margin-right: 25px; }
       .tags-wrapper .tags .links ul {
         padding: 0; }
       .tags-wrapper .tags .links li {
@@ -568,7 +568,7 @@ h4 {
     margin: 1px 0.8em 0 0; }
 
   .tags-wrapper .tags {
-    max-width: 460px; }
+    max-width: 500px; }
     .tags-wrapper .tags .links {
       margin-top: 20px;
       margin-right: 40px;
@@ -666,7 +666,9 @@ h4 {
     max-width: 240px; }
 
   .tags-wrapper .tags {
-    max-width: 180px; } }
+    max-width: 215px; }
+    .tags-wrapper .tags .links {
+      margin-right: 0; } }
 @media screen and (max-width: 500px) {
   .header-slider img {
     height: 350px; } }
